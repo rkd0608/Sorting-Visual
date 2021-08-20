@@ -1,0 +1,45 @@
+body {
+  width: 100vw;
+  min-height: 100vh;
+  height: 100%;
+  background-color: #4a148c;
+}
+
+.parent-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.array-container {
+  position: absolute;
+  margin-top: 51%;
+  margin-bottom: 0%;
+  width: 100%;
+}
+
+.array-bar {
+  width: 2px;
+  background-color: #81d4fa;
+  display: inline-block;
+  margin: 0 1px;
+}
+
+.navbar {
+  background-color: #212121;
+  height: 5rem;
+  width: 100%;
+  padding-top: 0rem;
+}
+
+.button-container {
+  margin-left: 25%;
+  margin-right: 35%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: none;
+}
